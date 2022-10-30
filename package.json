@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "start": "node serve-static.js",
+    "test": "mocha",
+    "e2e": "npx cypress run"
   },
   "author": "",
   "license": "MIT",
